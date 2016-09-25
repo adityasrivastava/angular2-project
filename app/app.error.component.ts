@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
-  template: ` <router-outlet></router-outlet>`
+  templateUrl: 'public/error.html'
 })
-export class AppComponent { }
+export class ErrorComponent { }
